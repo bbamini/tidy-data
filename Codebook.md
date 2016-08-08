@@ -29,25 +29,35 @@ t - Indicates signal is in time domain
 
 ##### Feature Vector for each pattern
 
-BodyAcc-XYZ (three components X, Y, Z)
+BodyAcc-XYZ: 
+Body Acceleration signal in three dimensions of X, Y and Z
 
-GravityAcc-XYZ (three components X, Y, Z)
+GravityAcc-XYZ (three components X, Y, Z): 
+Gravity Acceleration signal in three dimensions of X, Y and Z
 
-BodyAccJerk-XYZ (three components X, Y, Z)
+BodyAccJerk-XYZ:
+Body linear acceleration jerk signal in three dimensions of X, Y and Z
 
-BodyGyro-XYZ (three components X, Y, Z)
+BodyGyro-XYZ:
+Body angular velocity signal in three dimensions of X, Y and Z
 
-BodyGyroJerk-XYZ (three components X, Y, Z)
+BodyGyroJerk-XYZ:
+Body angular velocity jerk signal in three dimensions of X, Y and Z
 
-BodyAccMag
+BodyAccMag:
+Magnitude of three-dimensional signal calculated using Euclidean norm
 
-GravityAccMag
+GravityAccMag:
+Magnitude of three-dimensional signal calculated using Euclidean norm
 
-BodyAccJerkMag
+BodyAccJerkMag:
+Magnitude of three-dimensional signal calculated using Euclidean norm
 
-BodyGyroMag
+BodyGyroMag:
+Magnitude of three-dimensional signal calculated using Euclidean norm
 
-BodyGyroJerkMag
+BodyGyroJerkMag:
+Magnitude of three-dimensional signal calculated using Euclidean norm
 
 ##### Estimate from signal
 
@@ -60,3 +70,6 @@ std(): Standard deviation
 _mean: mean of data for a given subject and given activity
 
 _sd: standard deviation of data for a given subject and given activity
+
+
+For example the variable named "tBodyGyroJerkMag-mean()_mean" indicates the mean time domain signal of the magnitude of three-dimensional signal calculated using Euclidean norm summarized by averaging for a given participant and given activity.
