@@ -32,7 +32,7 @@ t - Indicates signal is in time domain
 BodyAcc-XYZ: 
 Body Acceleration signal in three dimensions of X, Y and Z
 
-GravityAcc-XYZ (three components X, Y, Z): 
+GravityAcc-XYZ: 
 Gravity Acceleration signal in three dimensions of X, Y and Z
 
 BodyAccJerk-XYZ:
