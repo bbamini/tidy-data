@@ -61,9 +61,9 @@ Magnitude of three-dimensional signal calculated using Euclidean norm
 
 ##### Estimate from signal
 
-mean(): Mean value
+-mean(): Mean value
 
-std(): Standard deviation
+-std(): Standard deviation
 
 ##### Summary data type for a given subject and given activity
 
