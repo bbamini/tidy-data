@@ -26,7 +26,7 @@ run_analysis.R reads these text files as R objects. It then merges the test and 
 Only mean and standard deviation data are selected. Then this data is grouped by a subject ID that ranges from 1 to 30 as well as descriptive activity labels. 
 Labels for variables in the data set are acquired from features.txt. 
 Further descriptions on the variable names is provided in the Codebook. 
-The script also evaluates the means and standard deviations of the selected data grouped by subject ID and activity. It then generates a tidy data text file that meets the principles of
+The script also evaluates the means and standard deviations of the selected data grouped by subject ID and activity. It then generates a tidy data text file that meets the principles of tidy data in the following ways
 * Each variable forms a column
 * Each observation for a given subject doing a specific activity forms a row
 * The table stores data of the same type i.e. sensor measurements
